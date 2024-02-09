@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004080;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  /* Flexbox for better layout control */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Adjust width for better visibility of components */
+.computer-section{
+  display: block;
+}
+
+
+  .remaining-section {
+    margin-right: 0; /* Override margin-right for the most right section */
+  }
+  
+  /* Customize styles for specific sections if needed */
+  .player-section h2,
+  .computer-section h2,
+  .remaining-section h2,
+  .table-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .player-section,
+  .remaining-section{
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+  }
+
+.message{
+  text-align: center;
+}
+
+.table-section div{
+  border-bottom: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 2px #888888;
+  margin: 5px 0 5px 0;
+  padding: 3px;
+  text-align: center;
+}
+
+.winner-message{
+  text-align: center;
+    border: 2px solid #f3b829;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 5px;
+    color: #f3b829;
+}
+
+.computer-hand div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+  .parent-container{
+    display: flex;
+    justify-content: space-between;
+  }
